@@ -1,126 +1,39 @@
-html {
-    /* margin: 0;
-    padding: 0;
+.nes-mario {
+    float: left;
+    margin: 40 0 0 0;
+}
+
+.nes-kirby {
+    float: right;
+    margin: 40 0 0 0;
+}
+
+.nes-balloon {
+    display: block;
     text-align: center;
-    align-items: center; */
-    /* display: flex;
     align-items: center;
+}
+
+.fit {
+    width: 100%;
+    display: inline-block;
+}
+
+.spacing {
+    margin: 2%;
+}
+
+.site {
+    display: flex;
     justify-content: center;
+    align-items: center;
     height: 100vh;
-    margin: 0; */
-    /* position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
+}
+
+body {
+    max-width: 760px;
 }
 
 a:hover {
     text-decoration: none;
 }
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.nes-container.is-dark {
-    margin-top: 20px;
-    margin: 5%;
-    width: auto;
-}
-
-.nes-container {
-    /* width: fit-content; */
-    /* height: auto; */
-    /* align-items: center;
-    text-align: center;
-    margin: auto; */
-    /* margin-top: 25px; */
-    padding: 0;
-}
-
-.nes-container.is-rounded {
-    /* margin: auto;
-    margin-top: 20px;
-    margin-left:20px;
-    margin-right: 20px; 
-    margin: 2%; */
-    /* max-width: 720px;
-    width: 100vw;
-    margin: 2%; */
-
-}
-
-.nes-container .fit {
-    display: flex;
-    padding: 5%;
-}
-
-.nes-container {
-    margin: 5%;
-    padding: 5%;
-    align-items: center;
-    text-align: center;
-}
-
-.nes-badge {
-    width:auto;
-    height: auto;
-    display: inline-block;
-}
-
-.nes-badge span.is-primary:first-child, .nes-badge span.is-success:first-child, .nes-badge span.is-warning:first-child  {
-    position: static;
-    display: inline-block;
-    width: 150;
-    margin: 5;
-}
-
-.nes-balloon {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 75;
-    display: block;
-}
-
-.nes-mario {
-    float: left;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    padding-left: 100;
-}
-
-.nes-kirby {
-    float: right;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    padding-left: 100;
-
-}
-
-.nes-balloon p {
-    margin: auto;
-    text-align: center;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding: 10px 20px 10px 20px;
-}
-
-.message-list {
-    margin: auto;
-    text-align: center;
-    align-items: center;
-}
-
-.addMargin {
-    margin: 20px;
-}
-
-

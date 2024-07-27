@@ -5,39 +5,48 @@
     <title>DevelopGray Home</title>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="nes.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="nes-container is-rounded ">
-        <section class="nes-container fit">
-            <section class="message-list">
-                <section class="message -left">
-                    <!-- Balloon -->
-                    <div class="nes-balloon from-left">
-                        <p class="nes-text is-primary">Hello Visitor!</p>
-                        <p>Welcome to DevelopGray</p>
-                    </div>
-                    <i class="nes-mario"></i>
-                    <i class="nes-kirby"></i>
-                </section>
+    <div class="site">
+        <div class="nes-container is-rounded ">
+            <section class="nes-container spacing">
+                <div class="fit">
+                    <section class="message-list">
+                        <section class="message -left">
+                            <!-- Balloon -->
+                            <div class="nes-balloon from-left">
+                                <p class="nes-text is-primary">Hello Visitor!</p>
+                                <p>Welcome to DevelopGray</p>
+                            </div>
+                            <i class="nes-mario"></i>
+                            <i class="nes-kirby"></i>
+                        </section>
+                    </section>
+                </div>
             </section>
-        </section>
-        <div class="nes-container with-title is-centered is-dark">
-            <h1 class="title">List of my projects</h1>
-            <div class="lists">
-                <a href="https://developgray.github.io/PingPongScoreboard/"><span><i class="nes-icon coin is-small"></i> </span>Ping Pong Scoreboard</a>
+            <div class="spacing">
+                <div class="nes-container with-title is-centered is-dark">
+                    <h1 class="title">List of my projects</h1>
+                    <div class="lists">
+                        <a href="https://developgray.github.io/PingPongScoreboard/"><span><i class="nes-icon coin is-small"></i> </span>Ping Pong Scoreboard</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nes-container with-title is-centered spacing">
+                <p class="title">My Coding Course Progress</p>
+                <progress class="nes-progress is-pattern" value="40" max="100"></progress>
+            </div>
+            <div class="nes-container with-title is-centered spacing">
+                <p class="title">Languages Used</p>
+                <p class="nes-badge"><span class="is-primary">HTML</span></p>
+                <p class="nes-badge"><span class="is-success">CSS</span></p>
+                <p class="nes-badge"><span class="is-warning">Javascript</span></p>
+            </div>
             </div>
         </div>
-        <div class="nes-container">
-            <p>My Coding Course Progress</p>
-            <progress class="nes-progress is-pattern" value="40" max="100"></progress>
-            <p>Languages Used</p>
-            <p class="nes-badge"><span class="is-primary">HTML</span></p>
-            <p class="nes-badge"><span class="is-success">CSS</span></p>
-            <p class="nes-badge"><span class="is-warning">Javascript</span></p>
-        </div>
-        </div>
     </div>
-        <script src="app.js" type="text/javascript"> </script>
+    <script src="app.js" type="text/javascript"> </script>
 </body>
 </html>
