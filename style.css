@@ -35,11 +35,31 @@
     max-width: 760px;
 }
 
-body {
+.nes-container.is-rounded {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+/* body {
     width: 100%;
     height: 100%
-}
+} */
 
 a:hover {
     text-decoration: none;
+}
+
+.nes-badge {
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.nes-badge span.is-primary:first-child,
+.nes-badge span.is-success:first-child,
+.nes-badge span.is-warning:first-child {
+    position: static;
+    display: inline-block;
+    width: 150;
+    margin: 5;
 }
