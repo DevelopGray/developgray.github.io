@@ -24,14 +24,6 @@
     margin-top: 25px;
 }
 
-.nes-container:last-child {
- margin-bottom: 5%;
-}
-
-.nes-container:first-child {
-    margin-bottom: 5%;
-}
-
 .site {
     display: grid;
     justify-content: center;
@@ -53,6 +45,22 @@
 
 .nes-container {
     max-width: 760px;
+}
+
+.top {
+    margin-top: 0;
+}
+
+.bottom {
+    margin-bottom: 0 !important;
+}
+
+.nes-container:last-child {
+    margin-bottom: 5%;
+}
+
+.nes-container:first-child {
+    margin-bottom: 5%;
 }
 
 .nes-container.is-rounded {
