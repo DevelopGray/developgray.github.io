@@ -24,6 +24,10 @@
     margin-top: 25px;
 }
 
+.nes-container:last-child {
+ margin-bottom: 5%;
+}
+
 .site {
     display: grid;
     justify-content: center;
