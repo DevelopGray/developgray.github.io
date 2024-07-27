@@ -3,10 +3,11 @@ html {
     padding: 0;
     text-align: center;
     align-items: center; */
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin: 0; */
     /* position: absolute;
     left: 50%;
     top: 50%;
@@ -14,63 +15,69 @@ html {
     transform: translate(-50%, -50%); */
 }
 
-/* body {
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     margin: 0;
-    padding: 10px;
-} */
+}
 
 .nes-container.is-dark {
     margin-top: 20px;
+    margin: 5%;
     width: auto;
 }
 
-/* .nes-badge {
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 30% !important;
-    display: inline-block !important;
-    padding-left: 100px !important;
-    padding-right: 100px !important;
-    margin-left: 100px !important;
-    margin-right: 100px !important;
+.nes-container {
+    /* width: fit-content; */
+    /* height: auto; */
+    /* align-items: center;
+    text-align: center;
+    margin: auto; */
+    /* margin-top: 25px; */
+    padding: 0;
+}
 
-} */
+.nes-container.is-rounded {
+    /* margin: auto;
+    margin-top: 20px;
+    margin-left:20px;
+    margin-right: 20px; 
+    margin: 2%; */
+    max-width: 720px;
+    width: 100vw;
+    margin: 2%;
+
+}
+
+.nes-container .fit {
+    display: flex;
+    padding: 5%;
+}
+
+.nes-container {
+    margin: 5%;
+    padding: 5%;
+    align-items: center;
+    text-align: center;
+}
+
 .nes-badge {
     width:auto;
     height: auto;
     display: inline-block;
 }
 
-/* .nes-badge p span {
-    padding: 1000px;
-    margin: 1000px;
-    width: 90%;
-    display: block;
-} */
-
 .nes-badge span.is-primary:first-child, .nes-badge span.is-success:first-child, .nes-badge span.is-warning:first-child  {
     position: static;
     display: inline-block;
     width: 150;
     margin: 5;
-
-}
-
-
-/* body {
-    width: 50%;
-    height: 50%;
-} */
-
-a:hover {
-    text-decoration: none;
-}
-
-.nes-container.is-rounded {
-    margin: auto;
-    margin-top: 20px;
-    margin-left:20px;
-    margin-right: 20px;
 }
 
 .nes-balloon {
@@ -78,10 +85,6 @@ a:hover {
     padding: 0;
     margin-bottom: 75;
     display: block;
-}
-
-.nes-container .fit {
-    display: flex;
 }
 
 .nes-mario {
@@ -110,17 +113,14 @@ a:hover {
     padding: 10px 20px 10px 20px;
 }
 
-.nes-container {
-    width: fit-content;
-    height: auto;
-    align-items: center;
-    text-align: center;
+.message-list {
     margin: auto;
-    margin-top: 25px;
+    text-align: center;
+    align-items: center;
 }
 
 .addMargin {
     margin: 20px;
-} */
+}
 
 
