@@ -12,6 +12,7 @@
     display: block;
     text-align: center;
     align-items: center;
+    padding: 1rem;
 }
 
 .fit {
@@ -20,7 +21,7 @@
 }
 
 .spacing {
-    margin: 25px;
+    margin-top: 25px;
 }
 
 .site {
